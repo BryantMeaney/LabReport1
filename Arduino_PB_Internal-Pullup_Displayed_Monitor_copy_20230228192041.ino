@@ -14,7 +14,8 @@ void setup() {
 
 void loop() {
 
-
+digitialRead(buttonState)
+// Reads the value of the push button
 Serial.print("The PB Value =" );
 // prints The PB Value = on the serial monitor 
 Serial.print("\t");
