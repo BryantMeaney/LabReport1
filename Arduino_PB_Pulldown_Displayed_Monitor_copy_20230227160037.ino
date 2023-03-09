@@ -8,15 +8,13 @@ void setup() {
   // Tells pin 2 to be an Input for the button
   Serial.begin(9600);
   // Tells Arduino speed of serial 
- digitalRead(buttonState);
-// reads value of buttonState the integer
 
 }
 
 
 void loop() {
 
-digitialRead(buttonState)
+digitialRead(buttonState);
 // Reads the value of the push button
 Serial.print("The PB Value =" );
 // writes the PB Value = on the serial monitor 
