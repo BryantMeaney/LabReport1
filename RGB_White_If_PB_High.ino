@@ -1,4 +1,4 @@
-// The purpose of this code is to make the RGB LED go white when the Push button Is pressed and then go black if the push button is not being pressed, the purpose of this code was to combine our knowledge of the push button with the “digitalRead” command along with the use of “digitalWrite” to turn on the LED, more importantly we became familiar with the usage of the if and how to set conditions such as the push button.”
+// The purpose of this code is to make the RGB LED go white when the Push button Is not pressed and then go black if the push button is being pressed, the purpose of this code was to combine our knowledge of the push button with the “digitalRead” command along with the use of “digitalWrite” to turn on the LED, more importantly we became familiar with the usage of the if and how to set conditions such as the push button.”
 // assigning integer Values to pins 
 // Assigning the pin 2 to the variable Red
 int Red = 3; 
@@ -24,7 +24,7 @@ void setup() {
 void loop() {
   // telling it to turn the RGB green when pressed
   // Checking if the Pb pin is HIGH (1)
-  if (digitalRead(Pb)==1){  
+  if (digitalRead(Pb)==0){  
     // Setting the Green pin HIGH (1)
     digitalWrite(Red,1); 
     digitalWrite(Green,1);
